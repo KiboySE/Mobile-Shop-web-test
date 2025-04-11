@@ -32,18 +32,32 @@
 
             <!-- SIDEBAR LOGIN FORM -->
             <td class="sidebar">
-                <h3>Login</h3>
-                <form class="login-form">
-                    <label for="email">Email</label><br>
+                <!-- Register Form -->
+                <h3>Register</h3>
+                <form class="register-form">
+                    <label for="first-name">First Name:</label><br>
+                    <input type="text" id="first-name" name="first-name" required><br><br>
+
+                    <label for="last-name">Last Name:</label><br>
+                    <input type="text" id="last-name" name="last-name" required><br><br>
+
+                    <label for="email">Email:</label><br>
                     <input type="email" id="email" name="email" required><br><br>
 
-                    <label for="password">Password</label><br>
+                    <label for="password">Password:</label><br>
                     <input type="password" id="password" name="password" required><br><br>
 
-                    <button type="submit">Login</button><br><br>
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username" required><br><br>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <br><br>
 
-                    <a href="register.html">Register here</a>
+                    <button type="submit">Register</button><br><br>
+
+                    <a href="index.html">Already have an account? Login here</a>
                 </form>
+
             </td>
         </tr>
         <tr class="footer">

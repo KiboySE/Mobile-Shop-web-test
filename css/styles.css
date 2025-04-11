@@ -1,0 +1,181 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style for the table */
+table {
+    width: 100%;
+    height: 100vh;
+    border-collapse: collapse;
+}
+
+/* Styling for each table cell */
+td {
+    padding: 20px;
+    border: 1px solid #ddd;
+    vertical-align: top; /* Ensure content starts from top */
+}
+
+/* Header section styles */
+.header {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+    height: 50px; /* Reduced height */
+}
+
+/* Main content section */
+.main-content {
+    width: 80%;
+    vertical-align: top; /* Ensure content is aligned at the top */
+}
+
+/* Sidebar section */
+.sidebar {
+    width: 20%;
+}
+
+/* Footer section styles */
+.footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    height: 30px; /* Reduced height */
+    font-weight: bold;
+}
+
+/* Sections for Home, About Us, Contact Us */
+#home, #about, #contact {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+}
+
+#about {
+    background-color: #e9ecef;
+}
+
+#contact {
+    background-color: #f1f3f5;
+}
+
+/* Login form inside sidebar */
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form button {
+    padding: 10px;
+    background-color: #007BFF; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+.login-form a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+/* Image gallery inside main content */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+.image-gallery img {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px; /* Rounded corners */
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05); /* Kidogo bounce effect */
+}
+/* Register form styling (inherits general form styles) */
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.name-row input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register-form input,
+.register-form select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.register-form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-form button:hover {
+    background-color: #0056b3;
+}
