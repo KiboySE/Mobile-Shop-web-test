@@ -36,7 +36,7 @@ table {
 td {
     padding: 20px;
     border: 1px solid #ddd;
-    vertical-align: top; /* Ensure content starts from top */
+    vertical-align: top;
 }
 
 /* Header section styles */
@@ -44,13 +44,13 @@ td {
     background-color: #f2f2f2;
     font-weight: bold;
     text-align: center;
-    height: 50px; /* Reduced height */
+    height: 50px;
 }
 
 /* Main content section */
 .main-content {
     width: 80%;
-    vertical-align: top; /* Ensure content is aligned at the top */
+    vertical-align: top;
 }
 
 /* Sidebar section */
@@ -62,7 +62,7 @@ td {
 .footer {
     background-color: #f2f2f2;
     text-align: center;
-    height: 30px; /* Reduced height */
+    height: 30px;
     font-weight: bold;
 }
 
@@ -97,7 +97,7 @@ td {
 
 .login-form button {
     padding: 10px;
-    background-color: #007BFF; /* Blue */
+    background-color: #007BFF;
     color: white;
     border: none;
     border-radius: 4px;
@@ -130,16 +130,17 @@ td {
 .image-gallery img {
     width: 200px;
     height: 200px;
-    border-radius: 12px; /* Rounded corners */
+    border-radius: 12px;
     object-fit: cover;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     transition: transform 0.3s;
 }
 
 .image-gallery img:hover {
-    transform: scale(1.05); /* Kidogo bounce effect */
+    transform: scale(1.05);
 }
-/* Register form styling (inherits general form styles) */
+
+/* Register form styling */
 .register-form {
     display: flex;
     flex-direction: column;
@@ -167,6 +168,25 @@ td {
     width: 100%;
 }
 
+/* Gender radio buttons */
+.gender-options {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.gender-options label {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+}
+
+.register-form input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Submit button */
 .register-form button {
     padding: 10px;
     background-color: #007BFF;
